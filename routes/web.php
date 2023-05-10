@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 
-get('reporting',function (){
+Route::get('reporting',function (){
     return 'reporting feature';
 
 });
